@@ -18,7 +18,6 @@ from iroha2.data_model import Value, Identifiable, Id
 
 
 class Register(_Register):
-
     @classmethod
     def identifiable(cls, identifiable):
         "Creates instruction with raw identifiable"
@@ -26,7 +25,6 @@ class Register(_Register):
 
 
 class Unregister(_Unregister):
-
     @classmethod
     def id(cls, id):
         "Creates instruction with raw id"

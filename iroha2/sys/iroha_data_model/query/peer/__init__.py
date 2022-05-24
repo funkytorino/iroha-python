@@ -1,2 +1,3 @@
 from ....rust import Enum, Struct, Tuple, Dict
-FindAllPeers = Tuple[()]
+
+FindAllPeers = Struct[()]
